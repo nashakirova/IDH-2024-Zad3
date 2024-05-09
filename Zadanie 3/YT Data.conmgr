@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="YT Data"
+  DTS:DTSID="{2AEEDBD2-ED44-4958-8684-94E28FA0A9FA}"
+  DTS:CreationName="FLATFILE">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:Format="Delimited"
+      DTS:LocaleID="1045"
+      DTS:HeaderRowDelimiter="_x000D__x000A_"
+      DTS:ColumnNamesInFirstDataRow="True"
+      DTS:RowDelimiter=""
+      DTS:TextQualifier="_x003B_"
+      DTS:CodePage="1250"
+      DTS:ConnectionString="C:\Users\User\Downloads\idh\GBvideos.csv">
+      <DTS:FlatFileColumns>
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="video_id"
+          DTS:DTSID="{383208E3-73BE-4EE0-946D-82FD1774A400}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="trending_date"
+          DTS:DTSID="{5406C3D1-F60E-42B9-B8D2-491386918250}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:MaximumWidth="200"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="title"
+          DTS:DTSID="{E4D775CE-BCFD-4DB0-A504-84296DFFD685}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:MaximumWidth="1000"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="channel_title"
+          DTS:DTSID="{57CDCEEC-F04A-4B51-8DC4-96F03F39DFE5}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:MaximumWidth="200"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="category_id"
+          DTS:DTSID="{174FC641-A73D-4D63-BC77-3F2B4F486870}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="publish_time"
+          DTS:DTSID="{B3FD43EB-68D3-4CA0-AE7E-FDAC2BD23F84}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:MaximumWidth="2000"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="tags"
+          DTS:DTSID="{9C8688CF-FD6E-4040-8E24-C2893706445A}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:MaximumWidth="1000"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="views"
+          DTS:DTSID="{7CF925BF-F533-4219-A5E7-BB101E33546B}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:MaximumWidth="1000"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="likes"
+          DTS:DTSID="{887F269E-4604-4C9C-A454-421B2F64A23C}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:MaximumWidth="1000"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="dislikes"
+          DTS:DTSID="{6C3B04E1-FC92-42A0-B112-2F64F7389946}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:MaximumWidth="1000"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="comment_count"
+          DTS:DTSID="{96E3D342-9E9F-46BC-A23E-3A88836A3C39}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:MaximumWidth="1000"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="thumbnail_link"
+          DTS:DTSID="{5A8F7BB7-FA9D-4E9C-B33A-C25A5AE8FAA6}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="comments_disabled"
+          DTS:DTSID="{A880A55C-C044-4CC9-B848-C63EABE576A6}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="ratings_disabled"
+          DTS:DTSID="{5796C619-23B3-49C4-9D20-87AEDCC29BB4}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="video_error_or_removed"
+          DTS:DTSID="{B4E10FF9-B172-4E89-A252-CB888ACABD90}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x000D__x000A_"
+          DTS:DataType="302"
+          DTS:TextQualified="True"
+          DTS:ObjectName="description"
+          DTS:DTSID="{D31F677D-EF5A-4849-B53E-DBABEDC83FFC}"
+          DTS:CreationName="" />
+      </DTS:FlatFileColumns>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
